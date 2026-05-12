@@ -1,0 +1,8 @@
+{
+  "threshold": 0.5,
+  "n_flagged": 13143.0,
+  "tp": 11843.0,
+  "fp": 1300.0,
+  "expected_value": 1974310.0,
+  "precision": 0.9010880316518298
+}

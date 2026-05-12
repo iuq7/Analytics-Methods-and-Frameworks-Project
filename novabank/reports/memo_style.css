@@ -1,0 +1,10 @@
+@page { size: Letter; margin: 0.5in; }
+body { font-family: Helvetica, Arial, sans-serif; font-size: 9.5pt; line-height: 1.32; color: #222; max-width: 7.3in; margin: 0; }
+h1 { font-size: 13pt; margin: 0 0 6px 0; }
+h2 { font-size: 11pt; margin: 10px 0 4px 0; }
+p { margin: 6px 0; }
+hr { border: none; border-top: 1px solid #999; margin: 8px 0; }
+strong { color: #000; }
+ol, ul { margin: 4px 0 4px 22px; padding: 0; }
+li { margin: 2px 0; }
+em { color: #555; }

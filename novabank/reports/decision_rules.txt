@@ -1,0 +1,43 @@
+|--- digital_user <= 0.50
+|   |--- transaction_velocity <= 0.54
+|   |   |--- product_count <= 1.50
+|   |   |   |--- balance <= 34.00
+|   |   |   |   |--- class: 0
+|   |   |   |--- balance >  34.00
+|   |   |   |   |--- class: 0
+|   |   |--- product_count >  1.50
+|   |   |   |--- monetary <= 239.50
+|   |   |   |   |--- class: 1
+|   |   |   |--- monetary >  239.50
+|   |   |   |   |--- class: 0
+|   |--- transaction_velocity >  0.54
+|   |   |--- pdays <= 250.50
+|   |   |   |--- class: 0
+|   |   |--- pdays >  250.50
+|   |   |   |--- monetary <= 537.00
+|   |   |   |   |--- class: 0
+|   |   |   |--- monetary >  537.00
+|   |   |   |   |--- class: 0
+|--- digital_user >  0.50
+|   |--- transaction_velocity <= 0.51
+|   |   |--- balance <= 124.50
+|   |   |   |--- frequency <= 7.50
+|   |   |   |   |--- class: 0
+|   |   |   |--- frequency >  7.50
+|   |   |   |   |--- class: 0
+|   |   |--- balance >  124.50
+|   |   |   |--- product_count <= 1.50
+|   |   |   |   |--- class: 0
+|   |   |   |--- product_count >  1.50
+|   |   |   |   |--- class: 0
+|   |--- transaction_velocity >  0.51
+|   |   |--- recency <= 328.50
+|   |   |   |--- day_of_week <= 27.50
+|   |   |   |   |--- class: 0
+|   |   |   |--- day_of_week >  27.50
+|   |   |   |   |--- class: 0
+|   |   |--- recency >  328.50
+|   |   |   |--- age <= 39.50
+|   |   |   |   |--- class: 0
+|   |   |   |--- age >  39.50
+|   |   |   |   |--- class: 0
