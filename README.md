@@ -40,4 +40,8 @@ novabank/
 - Decision: top-20% risk × RFM segment → Action Matrix (18 cells).
 - Audits: per-group fairness (age, marital, job).
 
+
+
+We are testing to push code on remote repositoy.
+
 See `novabank/reports/data_dictionary.md` and `novabank/reports/exec_memo.md` for full detail.

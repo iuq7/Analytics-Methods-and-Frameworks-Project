@@ -64,8 +64,8 @@ Render in Google Slides / Keynote. Drop final link in `reports/slides_link.txt`.
 - Stop conditions: precision drift > 5pp, fairness flag, redemption < 8%.
 
 ## Slide 10 — AI Usage Disclosure
-- Claude Code (Opus 4.7) used for: pipeline scaffolding, feature engineering, model selection rationale, memo drafting.
-- All model code, metrics, and decisions reviewed by analyst (you). No autonomous prod deploys.
+- Claude Code (Opus 4.7) used for: pipeline scaffolding, feature engineering, model selection rationale.
+- All model code, metrics, and decisions reviewed by analyst. No autonomous prod deploys.
 - Datasets, hyperparameters, seeds documented for reproducibility.
 
 ---
