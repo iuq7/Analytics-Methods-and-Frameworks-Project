@@ -1,9 +1,0 @@
-https://docs.google.com/presentation/d/REPLACE_ME_WITH_DECK_LINK
-
-Build the deck from reports/slides_outline.md. Embed:
-- reports/figures/pr_curve.png
-- reports/figures/calibration.png
-- reports/figures/feature_importance.png
-- reports/segment_x_risk.csv (Action Matrix volumes)
-- reports/sensitivity.csv (Scenario table)
-- reports/fairness_age_band.csv, fairness_marital.csv, fairness_job.csv

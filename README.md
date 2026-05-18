@@ -15,8 +15,6 @@ bash run_all.sh
 ```
 
 Outputs:
-- `novabank/reports/exec_memo.pdf` — one-page executive memo
-- `novabank/reports/slides_outline.md` — 10-slide deck spec
 - `novabank/reports/figures/` — PR curve, calibration, feature importance
 - `novabank/reports/*.csv` — metrics, Action Matrix volumes, sensitivity, fairness audits
 
@@ -25,7 +23,6 @@ Outputs:
 ```
 novabank/
 ├── src/             # pipeline modules (data, features, models, evaluate, decision, explain)
-├── notebooks/       # exploration (placeholder)
 ├── data/            # raw cache + processed splits (gitignored)
 ├── reports/         # memo, slides outline, metrics, figures
 ├── requirements.txt
@@ -41,7 +38,4 @@ novabank/
 - Audits: per-group fairness (age, marital, job).
 
 
-
-We are testing to push code on remote repositoy.
-
-See `novabank/reports/data_dictionary.md` and `novabank/reports/exec_memo.md` for full detail.
+See `novabank/reports/data_dictionary.md` for full detail.
