@@ -24,7 +24,7 @@ Outputs:
 novabank/
 ├── src/             # pipeline modules (data, features, models, evaluate, decision, explain)
 ├── data/            # raw cache + processed splits (gitignored)
-├── reports/         # memo, slides outline, metrics, figures
+├── reports/         # metrics, figures
 ├── requirements.txt
 └── run_all.sh       # end-to-end build
 ```
